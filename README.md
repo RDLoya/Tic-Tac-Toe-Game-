@@ -1,20 +1,42 @@
-# Tic-Tac-Toe-Game
+# Tic Tac Toe Game
 
-Overview :
-This project is a simple implementation of the classic Tic Tac Toe game using HTML, CSS, and JavaScript. The game allows two players to take turns marking spaces on a 3x3 grid with "X" and "O" symbols. The objective is to achieve three of their marks in a horizontal, vertical, or diagonal row.
+A classic tic-tac-toe game implemented using HTML, CSS, and JavaScript. The game allows two players to take turns and checks for winning conditions in rows, columns, and diagonals. It features an intuitive interface and includes a restart option for a seamless gaming experience.
 
-Features :
-Interactive Gameplay: Players can take turns by clicking on the grid cells to place their respective symbols.
-Winning Logic: The game checks for winning conditions after each move and declares a winner or a tie accordingly.
-Restart Option: Players can restart the game at any point to play again.
+## Features
 
-Technologies Used :
-HTML: Provides the structure and layout of the game.
-CSS: Styles the game for an appealing and user-friendly interface.
-JavaScript: Implements the game logic, handles player moves, and checks for win/tie conditions.
+- **Two Player Mode**: Alternates turns between two players.
+- **Win Detection**: Automatically detects wins or draws by checking rows, columns, and diagonals.
+- **Restart Option**: Allows players to start a new game without refreshing the page.
+- **User-Friendly Interface**: Simple and interactive design for an enjoyable experience.
 
-How to Play :
-Open the index.html file in a web browser.
-Click on the grid cells to place your symbol ("X" or "O").
-The game will announce the winner or declare a tie.
-Click the "Restart" button to play again.
+## Live Demo
+
+You can play the game here: [Tic Tac Toe Game] [https://rdloya.github.io/Tic-Tac-Toe-Game-/]
+
+## Installation
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/RDLoya/Tic-Tac-Toe-Game-
+    ```
+
+2. Navigate to the project directory:
+    ```bash
+    cd tic-tac-toe-game
+    ```
+
+3. Open `index.html` in your preferred web browser.
+
+## Usage
+
+1. Open the game in your browser.
+2. Players take turns to place their marks (X or O) on the grid.
+3. The game will display the winner or declare a draw when the game ends.
+4. Use the "Restart" button to play a new game.
+
+## Contributing
+
+Feel free to open issues or submit pull requests if you have suggestions or improvements.
+
